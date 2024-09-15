@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Added position relative */
+}
+
+h1 {
+    font-size: 10vw;
+    font-weight: 900;
+}
+
+.cursor {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top: 50%; /* Center horizontally */
+    left: 50%; /* Center vertically */
+    transform: translate(-50%, -50%); /* Offset the position to truly center the element */
+    /* transition: all linear 0.2s; */
+    mix-blend-mode: difference;
+}

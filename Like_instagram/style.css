@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 400px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 5%;
+    position: relative;  /*zaruri h wo transform translate wali chize use kene ke lie  */
+}
+#container img{
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+    transform: translateX(-210px);
+}
+
+#container i{
+    color: beige;
+    opacity: 0;
+    font-size: 60px;
+    position: absolute;
+    transform:translate();
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform ease 0.5s;
+}

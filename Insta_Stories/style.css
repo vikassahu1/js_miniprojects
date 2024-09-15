@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d68f8f;
+}
+
+#card{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(215, 214, 214);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+#storiyan{
+    height: 30%;
+    width: 100%;
+    background-color: red;
+}
+
+.story{
+    
+}
